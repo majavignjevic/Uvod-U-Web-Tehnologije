@@ -1,0 +1,162 @@
+body{
+    margin:0;
+}
+.Lime{
+    background-color: lime;
+    float: left;
+    width: 100%;
+}
+.Orange{
+    background-color: orange;
+    float: left;
+    width: 33.3%;
+}
+.Darkred{
+    background-color: darkred;
+    float: left;
+    width: 33.3%;
+    color: white;
+}
+.Indigo{
+    background-color: indigo;
+    float: left;
+    width: 33.3%;
+    color: white;
+}
+.Black{
+    background-color: black;
+    float: left;
+    width: 50%;
+    color: white;
+}
+.Teal{
+    background-color: teal;
+    float: left;
+    width: 50%;
+}
+.Container3{
+    width: 50%;
+    margin: auto;
+}
+.Tomato{
+    background-color: tomato;
+    width: 50%;
+    float: left;
+}
+.LightCoral{
+    background-color: lightcoral;
+    width: 50%;
+    float: right;
+}
+.Container4{
+    width: 50%;
+    margin: auto;
+}
+.Gold{
+    background-color: gold;
+    float: left;
+    width: 32%;
+}
+.Gold img{
+    width: 50px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+.Silver{
+    background-color: silver;
+    float: right;
+    width: 32%;
+}
+.Silver img{
+    width: 50px;
+    float: right;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+p{
+    text-align: left;
+    padding: 20px 20px 10px 20px
+}
+h2{
+    text-align: center;
+}
+
+@media (max-width:800px){
+    .Lime{
+        background-color: lime;
+        float: left;
+        width: 50%;
+        color: white;
+    }
+    .Orange{
+        background-color: orange;
+        float: left;
+        width: 50%;
+        color: white;
+    }
+    .Darkred{
+        background-color: darkred;
+        float: left;
+        width: 50%;
+        color: white;
+    }
+    .Indigo{
+        background-color: indigo;
+        float: left;
+        width: 50%;
+        color: white;
+    }
+    .Black{
+        background-color: black;
+        float: left;
+        width: 100%;
+        color: white;
+    }
+    .Teal{
+        background-color: teal;
+        float: left;
+        width: 100%;
+        color: white;
+    }
+    .Tomato{
+        background-color: tomato;
+        width: 50%;
+        float: left;
+        color: white;
+    }
+    .LightCoral{
+        background-color: lightcoral;
+        width: 50%;
+        float: right;
+        color: white;
+    }
+    .Gold{
+        background-color: gold;
+        float: left;
+        width: 100%;
+        color: white;
+    }
+    .Gold img{
+        width: 50px;
+        float: right;
+        padding-left: 10px;
+        padding-top: 25px;
+        padding-right: 20px;
+    }
+    .Silver{
+        background-color: silver;
+        float: right;
+        width: 100%;
+        color: white;
+    }
+    .Silver img{
+        width: 50px;
+        float: left;
+        padding-right: 10px;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+}

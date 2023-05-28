@@ -1,0 +1,112 @@
+nav{
+    background-color: rgb(191,192,191);
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li
+{
+   float: right;
+   width: 10%;
+}
+a
+{
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+}
+a:link {
+    text-decoration: none;
+    color:#212592;
+}
+a:visited {
+    text-decoration: none;
+    color:#212592;
+}
+a:hover {
+    color: #FED136;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+    color:#212592;
+}
+.Header{
+    background-image: url("img/header-bg.jpg");
+    background-size: 100%;
+    background-position: top;
+    color:white;
+    padding-top: 500px;
+}
+.Naslov{
+    padding-bottom: 400px;
+    text-align: center;
+}
+.Header img{
+    max-width: 100%;
+    max-height: 1000px;
+}
+.Services{
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+}
+.Services h5{
+    font-size: 15px;
+}
+.Services img{
+    width: 150px;
+}
+.Portfolio{
+    margin:0 auto;
+    margin-top: 300px;
+    background-color: #f8f9fa;
+    background-size: 100%;
+    padding-right: 100px;
+}
+.Portfolio img{
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+}
+.Portfolio h4{
+    text-align: center;
+}
+.Services h4{
+    text-align: center;
+    margin-right: 110px;
+}
+@media (max-width:768px) {
+    li{
+        width: 100%;
+        color: white;
+        margin-bottom: 2px;
+    }
+    ul{
+        background-color:  rgb(191, 191, 192);
+    }
+    .slike img{
+        margin-bottom: 20px;
+    }  
+    .Services h4{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .Portfolio{
+        margin:0 auto;
+        margin-top: 300px;
+        background-color: #f8f9fa;
+        background-size: 100%;
+        padding-right: 150px;
+    }
+    .Portfolio h4{
+        margin-left: 80px;
+    }
+}
