@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: rgb(255,150,128);
+    height: 780px;
+}
+.Navigacija{
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 1140px;
+    width: 50%;
+}
+.Navigacija a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+.Navigacija a:hover{
+    border-top: 2px solid white;
+}
+.welcome{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    
+}
+.button{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    font-weight: bold;
+}
+.welcome h1{
+    text-shadow: 2px 2px black;
+}
+.welcome p{
+    text-shadow:  2px 2px gray;
+}
+.welcome p{
+    width: 50%;
+    margin: 0 auto;
+}
+img{
+    margin-top: 3px;
+    width: 100%;
+}
+.fas{
+    color: rgb(255,150,128);
+    background-color: white;
+    padding: 10px 10px 10xp 10px;
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px;
+    float: right;
+}
+.container{
+    width: 1000px;
+}
+.Prvi{
+    margin-top: 70px;
+
+}
+.Youtube{
+    margin-bottom: 50px;
+    width: fit-content;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+iframe{
+    width: 100%;
+    height: 250px;
+}
+.Dva{
+    background-image: url(images/school-3.jpg);
+    background-size: cover;
+    text-align:center;
+    width: 100%
+}
+.Cetiri{
+    background-image: url(images/school-4.jpg);
+    background-size: cover;
+    text-align:center;
+    width: 100%
+}
+.Vision{
+    background-color: rgb(255,150,128);
+    color: white;
+    height: max-content;
+    width: 30%;
+}
+.Vision h4{
+    font-size:28px;
+}
+.Background{
+    background-image: url(images/school-2.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    color: white;
+}
+.Events{
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    color: black;
+}
+.Events p {
+    width: 700px;
+    padding-left: 20%;
+    color: black;
+}
+.One, .Two, .Tree, .Four, .Five, .Six{
+    padding: 20px 10px 10px 20px;
+}
+.Jedan, .Cetiri{
+    text-align: left;
+}
+.Dva, .Pet{
+    text-align: center;
+}
+.Tri, .Sest{
+    text-align: right;
+}
+.Jedan, .Tri, .Pet, .Sest{
+    background-color: rgb(255,150,128);
+    height: 90%;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+}
+.Dva img{
+    z-index: 0;
+}
+.Cetiri img{
+    z-index: 0;
+}
+.Number{
+    border: 2px solid white;
+    width: 50px;
+    margin-left:1%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.News{
+    margin-top: 20%;
+}
+.Novosti{
+    margin-top: 20px;
+}
+.news{
+    float: left;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.see{
+    float: right;
+    background-color: rgb(255,150,128);
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large;
+}
+.Vijesti{
+    border: 4px solid rgb(255,150,128);
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+footer{
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(255,150,128);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.Ime{
+    float: left;
+}
+.Prezime{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+@media (max-width:576px){
+    .Navigacija{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .One, .Six, .Five{
+        display: none;
+    }
+    .News{
+        margin-top: 100%;
+    }
+    .Two{
+        order: 0;
+    }
+    .Tree{
+        order: 2;
+    }
+    .Four{
+        order: 1;
+    }
+}
+@media (min-width:576px) and (max-width:765px){
+    .Navigacija{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .One, .Six, .Five{
+        display: none;
+    }
+    .Two{
+        order: 0;
+    }
+    .Tree{
+        order: 2;
+    }
+    .Four{
+        order: 1;
+    }
+    .News{
+        margin-top: 100%;
+    }
+    .Vision{
+        background-color: rgb(255,150,128);
+        color: white;
+        padding-top: 100px;
+        width: 100%;
+    }
+}
+@media (min-width:765px) and (max-width:865px){
+    .Navigacija{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .Two{
+        order: 0;
+    }
+    .Tree{
+        order: 2;
+    }
+    .Four{
+        order: 1;
+    }
+
+    .One, .Six, .Five{
+        display: none;
+    }
+    .News{
+        margin-top: 100%;
+    }
+    .Vision{
+        background-color: rgb(255,150,128);
+        color: white;
+        padding-top: 100px;
+        width: 100%;
+    }
+}
