@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    background-color: #E08524;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.container{
+    width: 1000px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    background-color: #8BC34A;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 50px;
+    width: 23%;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+li:hover{
+    background-color: white;
+    color: #8BC34A;
+}
+li:hover > a{
+    color: #8BC34A;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited, a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:active, a:focus{
+    text-decoration: none;
+    color: white;
+}
+.Header > .container-fluid > .container > h1 {
+    text-shadow: 2px 2px gray; 
+}
+.Header > .container-fluid > .container > h1::after {
+    color: #A7FFEB;
+}
+h1::after{
+    color: #A7FFEB;
+}
+.Icon > .container > ul > li{
+    background-color: white;
+}
+.Icon > .container {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+i{
+    margin: 0 auto;
+    width: 100px;
+    color: white;
+    border-radius:50%;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+.fa-atom{
+    background-color: #2196F3;
+}
+.fa-heart{
+    background-color: #F44336;
+}
+.fa-robot{
+    background-color: #4CAF50;
+}
+.fa-bolt{
+    background-color: #FFEB3B;
+}
+.Icon > .container-fluid {
+    background-color: #8BC34A;
+    color: black;
+}
+.Icon > .container-fluid{
+    padding-top: 40px;
+}
+.Icon > .container-fluid:hover{
+    padding-top: 40px;
+    background-color: #E08524;
+    color: white;
+}
+.Slike{
+    margin-top: 50px;
+}
+section{
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+}
+img:hover{
+    opacity: 80%;
+}
+.Footer > .container-fluid {
+    margin-top: 20px;
+    background-color: #E08524;
+    text-align: center;
+    height: 50px;
+}
+@media(max-width:800px){
+    li
+    {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding:0;
+        padding-top: 10px;
+    }
+    .Header > .container-fluid > .container{
+       margin-left: 0px;
+       padding-left: 0px;
+       width: 100%;
+    }
+    .Header > .container-fluid > .container > nav{
+        width: 100%;
+    }
+    .Icon > li > a{
+        width: 50%;
+    }
+}

@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 4px 5px darkslategray;
+}
+.wrapper{
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+.One{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+.Plum{
+    background-color: plum;
+    padding: 3%;
+}
+.Darkkhahki{
+    background-color: darkkhaki;
+    padding: 3%;
+}
+.Gold{
+    background-color: gold;
+    padding: 3%;
+}
+.Two{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.Burlywood{
+    background-color: burlywood;
+    padding: 3%;
+}
+.Grey{
+    background-color: gray;
+    padding: 3%;
+}
+@media (max-width:600px){
+    .wrapper{
+        width: 550px
+    }
+    header{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Prvi{
+        order: 1;
+    }
+    .Drugi{
+        order: 2;
+    }
+    .Treci{
+        order: 0;
+    }
+    .Cetvrti{
+        order: 3;
+    }
+    .Peti{
+        order: 4;
+    }
+    .One{
+        flex-direction:row-reverse;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .Two{
+        flex-direction:column-reverse;
+        width: 100%;
+    }
+}

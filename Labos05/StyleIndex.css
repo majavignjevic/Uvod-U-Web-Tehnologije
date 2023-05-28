@@ -1,0 +1,117 @@
+header{
+    position: fixed;
+    z-index: 1;
+    background-color: #48282f;
+    margin-top: -10px;
+    padding-left: 250px;
+    width: 100%;
+}
+
+body{
+    background-color: #F8F7DF;
+    color: #333333;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header p{
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: -20px;
+    padding-bottom: 5px;
+    color: #666666;
+}
+
+header h1{
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 0px;
+    color: white;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #666666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.wrapp{
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    left: 300px;
+}
+
+.Glava{
+    margin: 0 auto;
+
+}
+
+.text{
+    z-index: 1;
+    position: absolute;
+    left: 620px;
+    top: 90px;
+    background-color: #333333;
+    color: #cccccc;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+button{
+    background-color: #48282f;
+    border-radius: 10px;
+    color: white;
+    width: 160px;
+    height: 35px;
+    margin-left: 300px;
+}
+
+.First{
+    position: relative;
+    width: 960px;
+}
+
+.Prvi{
+    position: relative;
+    width: 460px;
+}
+
+.Drugi{
+    position: relative;
+    width: 460px;
+    left: 500px;
+    top: -345px;
+}
+.Second{
+    position: relative;
+    top: -310px;
+}
+
+.Treci{
+    position: relative;
+    width: 460px;
+}
+
+.Cetvrti{
+    position: relative;
+    width: 460px;
+    left: 500px;
+    top: -345px;
+}
+
+footer{
+    position: relative;
+    top: -500px;
+    bottom: 0px;
+    background-color: #48282f;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 250px;
+    padding-bottom: 10px;
+    color: white;
+}
