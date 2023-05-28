@@ -1,0 +1,146 @@
+body{
+    background-image: linear-gradient(to right, #FEAC5E, #4BC0C8);
+    background-repeat: repeat;
+    font-style:italic;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, cursive;
+    margin:0;
+}
+header{
+    margin: 0 auto;
+    width: 1000px;
+}
+header img{
+    max-width: 1000px;
+}
+.Header{
+    margin: 0 auto;
+    width: 1000px;
+}
+button{
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.Kontakt{
+    background-color: #FEAC5E;
+}
+.O_Nama{
+    background-color: #C779D0;
+}
+.Novosti{
+    background-color: #4BC0C8;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: -4px;
+    max-width: 1000px;
+    background-color: rgb(208, 169, 213);
+}
+.top p{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.explanation, .history, .csm, .techniques, .options, .tools {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(208, 169, 213);
+}
+.history p{
+    margin-left: 20px;
+    margin-right: 500px;
+}
+.history img{
+    margin-top: -400px;
+    margin-left: 500px;
+}
+.csm p {
+    margin-right: 20px;
+    margin-left: 450px;
+}
+.csm img{
+    margin-top: -490px;
+    margin-right: 500px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.options img{
+    margin-top: 80px;
+    margin-left: 350px;
+}
+.options p{
+    margin-top: -360px;
+}
+.tools{
+    padding-top: 350px;
+}
+ol{
+    list-style-image: url('../images/nail_polish.png');
+    padding-left: 80px;
+    padding-right: 50px;
+}
+ul{
+    list-style-image:url('../images/arrow.png') ;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+h2{
+    text-align: center;
+    color: #203A43;
+    font-weight: bolder;
+}
+.table{
+    padding-top: 30px;
+    padding-left: 150px;
+    height: 180px;
+    background-color: #d0a9d5;
+}
+table{
+    text-align: center;
+    border: 3px solid#203A43;
+    border-collapse: collapse;
+    width: 700px;
+}
+td{
+    height: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #203A43;
+    width: 80px;
+}
+th{
+    border: 2px solid#203A43;
+    border-collapse: collapse;
+    height: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #4BC0C8;
+}
+.footer{
+    margin: 0 auto;
+    width: 300px;
+    height: 55px;
+    padding-left: 700px;
+    margin-top: -15px;
+}
+a:link{
+    color: #203A43;
+    font-weight: bolder;
+}
+a:visited{
+    font-weight: bolder;
+    color: #e97100;
+}
+a:hover{
+    font-weight: bolder;
+    color: #203A43 ;
+    background-color: #76bbc0a1;
+}
+a:active{
+    font-family: cursive;
+    font-weight: bolder;
+}

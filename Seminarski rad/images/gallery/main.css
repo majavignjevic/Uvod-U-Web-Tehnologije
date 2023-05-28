@@ -1,0 +1,104 @@
+html
+{
+    width:800px;
+    margin:0 auto;
+    font-family: Arial;
+    line-height: 30px;
+    font-size:small;
+}
+header
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    height: 40px;
+    font-size: 30px;
+}
+.main
+{
+    position: relative;
+}
+.sekcija
+{
+    position: relative;
+    top:50px;
+}
+.prvi
+{
+    position: absolute;
+        left:50px;
+        width: 250px;
+        background-color: #e2e1e1;
+        padding: 15px;
+}
+.drugi
+{
+    position: absolute;
+    left:400px;
+    width: 250px;
+    background-color: #e2e1e1;
+    padding: 15px;
+}
+.details
+{
+    border: solid black 1px;
+    padding:7px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left:70px;
+}
+.details2
+{
+    border: solid black 1px;
+    padding:7px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    left:70px;
+}
+.slika
+{
+    position: relative;
+    top:420px;
+    left:65px;
+}
+.sekcija2
+{
+    width: 800px;
+    position: relative;
+    top:50px;
+}
+.treci
+{
+    position: relative;
+    top:115px;
+    left: 280px;
+    border-radius: 10px;
+    background-color: #e2e1e1;
+    padding:5px;
+    width: 400px;
+}
+.cetvrti
+{
+    position: relative;
+    top:125px;
+    left:280px;
+    border-radius: 10px;
+    background-color: #e2e1e1;
+    padding:5px;
+    width: 400px;
+}
+footer
+{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    z-index: 1;
+    width: 800px;
+    padding:5px;
+}

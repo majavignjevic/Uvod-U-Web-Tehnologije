@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(to right, #FEAC5E, #4BC0C8);
+    background-repeat: repeat;
+    font-style:italic;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, cursive;
+    margin:0;
+    margin-bottom: 0;
+}
+header{
+    margin: 0 auto;
+    width: 1000px;
+}
+header img{
+    margin-top: 50px;
+}
+.Header{
+    left: 260px;
+    margin: 0 auto;
+    width: 1000px;
+    position: fixed;
+    z-index: 1;
+}
+button{
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.Naslovnica{
+    background-color: #FEAC5E;
+}
+.Kontakt{
+    background-color: #C779D0;
+}
+.Novosti{
+    background-color: #4BC0C8;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 1000px;
+    background-color: rgb(208, 169, 213);
+    height: 1175px;
+}
+.O_Meni{
+    width: 350px;
+    position: relative;
+    left: 270px;
+    top: 80px;
+    padding: 50px 20px 10px 70px;
+    line-height: 2;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #203A43;
+    font-weight: bold;
+}
+.Img1{
+    position: relative;
+    left: 620px;
+    bottom: 200px;
+}
+.Sidebar{
+    width: 300px;
+    background-color: #FEAC5E;
+    position: relative;
+    bottom: 603px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Sidebar img{
+    max-width: 250px;
+    padding-right: 30px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+.Competitions{
+    width: 350px;
+    position: relative;
+    left: 540px;
+    bottom: 1350px;
+    padding: 50px 20px 10px 70px;
+    line-height: 2;
+    text-align: center;
+}
+.Img2{
+    position: relative;
+    left: 300px;
+    bottom: 1570px;
+}
+.clear{
+    clear: both;
+}
+footer{
+    margin: 0 auto;
+    width: 1000px;
+    padding-left: 980px;
+    margin-top: -10px;
+}

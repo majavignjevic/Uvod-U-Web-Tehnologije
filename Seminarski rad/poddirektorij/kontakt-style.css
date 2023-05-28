@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(to right, #FEAC5E, #4BC0C8);
+    background-repeat: repeat;
+    font-style:italic;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, cursive;
+    margin:0;
+}
+header{
+    margin: 0 auto;
+    width: 1000px;
+}
+.Header{
+    margin: 0 auto;
+    width: 1000px;
+}
+button{
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.Naslovnica{
+    background-color: #FEAC5E;
+}
+.O_Nama{
+    background-color: #C779D0;
+}
+.Novosti{
+    background-color: #4BC0C8;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: -4px;
+    max-width: 1000px;
+    background-color: rgb(208, 169, 213);
+}
+.form{
+    padding: 20px 25px 25px 20px;
+    background-color:#d0a9d5;
+}
+.form img{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+.mail{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #d0a9d5;
+}
+.mail img{
+    margin-top: -90px;
+    margin-left: 750px;
+    margin-right: 25px;
+}
+.footer{
+    margin: 0 auto;
+    width: 300px;
+    height: 55px;
+    padding-left: 700px;
+    margin-top: -15px;
+}
+a:link{
+    color: #203A43;
+    font-weight: bolder;
+}
+a:visited{
+    font-weight: bolder;
+    color: #e97100;
+}
+a:hover{
+    font-weight: bolder;
+    color: #203A43 ;
+    background-color: #76bbc0a1;
+}
+a:active{
+    font-family: cursive;
+    font-weight: bolder;
+}

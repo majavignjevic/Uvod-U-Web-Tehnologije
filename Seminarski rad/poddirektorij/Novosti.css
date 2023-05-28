@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to right, #FEAC5E, #4BC0C8);
+    background-repeat: repeat;
+    font-style:italic;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, cursive;
+    margin:0;
+}
+header{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.Header{
+    margin: 0 auto;
+    width: 1000px;
+}
+button{
+    min-width: 320px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+.Naslovnica{
+    background-color: #FEAC5E;
+}
+.Kontakt{
+    background-color: #C779D0;
+}
+.O_Nama{
+    background-color: #4BC0C8;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: -4px;
+    max-width: 1000px;
+    background-color: rgb(208, 169, 213);
+    padding-top: 20px;
+}
+.wrapper img{
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+}
+h3{
+    color: #203A43;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+p{
+    font-style: italic;
+}
+a{
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: none;
+}
+.A, .B, .C, .AA, .BB, .CC, .AAA, .BBB, .CCC{
+    width: 330px;
+    padding: 30px 20px 20px 20px;
+    height: 420px;
+}
+footer{
+    margin: 0 auto;
+    width: 1000px;
+    padding-left: 710px;
+}
+a:link{
+    color: #203A43;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:visited{
+    font-weight: bolder;
+    color: #e97100;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bolder;
+    color: #203A43 ;
+    background-color: #76bbc0a1;
+    text-decoration: none;
+    font-style: italic;
+    text-decoration-style: none;
+}
+a:active{
+    font-style: italic;
+    font-weight: bolder;
+}

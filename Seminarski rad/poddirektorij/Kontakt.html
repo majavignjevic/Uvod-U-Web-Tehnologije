@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <title>Nail Art-Contact</title>
+    <meta name="author" content="Maja Vignjević, JMBAG:0246096292, grupa:UWT08">
+    <meta name="description" content="Stranica prikazuje različite tehnike, načine, kao i primjere dizajna nail arta:)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="kontakt-style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <meta charset="UTF-8">
+</head>
+<body>
+  <div class="Header">
+    <button class="Naslovnica" onclick="document.location='../Naslovnica.html'">Front Page</button>
+    <button class="O_Nama" onclick="document.location='O_nama.html'">About Us</button>
+    <button class="Novosti" onclick="document.location='Novosti.html'">Latest</button>
+  </div>
+  <header>
+      <img src="../images/banner_contacts.jpg" alt="banner_contact">
+  </header>
+  <div class="wrapper">
+     <div class="form">
+      <form method="GET">
+      <table>
+            <tr>
+              <td colspan="3"><h4>Here is a small questionnaire which you can fill in:)</h4> </td>
+            </tr>
+            <tr>
+              <td colspan="3"><b>First question is an easy one, have you ever done nail art?</b> </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="radio" name="Question 1" id="Yes" value="Yes">
+                  <label for="Yes">Yes, I have done nail art</label>
+              </td>
+              <td>
+                  <input type="radio" name="Question 1" id="Maybe" value="Maybe">
+                  <label for="Maybe">Does painting nails in one color counts?</label>
+              </td>
+              <td>
+                  <input type="radio" name="Question 1" id="No" value="No">
+                  <label for="No">What is nail art?</label>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3"><b>Okay, next one is which of these would you like to make on your nails? You can choose multiple choices so you don't dwell on it too much</b></td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="checkbox" name="Question 2A" value="French manicure" id="french">
+                  <label for="french">French manicure<br><img src="../images/french manicure.jpg"></label>
+              </td>
+              <td>
+                  <input type="checkbox" name="Question 2B" value="doticure" id="doticure">
+                  <label for="doticure">Doticure<br><img src="../images/doticure.jpg"></label>
+              </td>
+              <td>
+                  <input type="checkbox" name="Question 2C" name="Marble nails" id="marble">
+                  <label for="marble">Marble nails<br><img src="../images/marble_nails.jpg"></label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="checkbox" name="Question 2D" value="Stamped nails" id="stamping">
+                  <label for="stamping">Stamped nails<br><img src="../images/stamping.jpg"></label>
+              </td>
+              <td>
+                  <input type="checkbox" name="Question 2E" value="free drawing with the brushes" id="freeDraw">
+                  <label for="freeDraw">Drawing with the brushes<br><img src="../images/brush_made.jpg"></label>
+              </td>
+              <td><input type="checkbox" name="Question 2F" value="Half-moon manicure" id="moon">
+                  <label for="moon">Half-moon manicure<br><img src="../images/half-moon.jfif"></label>
+              </td>
+            </tr>
+              <tr>
+              <td colspan="3"><b>Which of these profiles you like the most?</b></td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                  <select name="InstagramProfiles">
+                      <option value="PleaseSelect" disabled>Please select one</option>
+                      <option value="SvetaSanders">@sveta_sanders</option>
+                      <option value="HelenYurchenko">@yurchenko_helen</option>
+                      <option value="JazzHappyGoPolished">@happygopolished</option>
+                      <option value="PaintBox">@paintboxnails</option>
+                  </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3"><b>And for the last one, which trend do you prefer the most?</b></td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                  <input type="text" name="TrendILike" maxlength="50">
+              </td>
+            </tr>
+            
+            <tr>
+              <td colspan="3"><b>What kind of a questionnaire would this be without restart and submit button so click on one :)</b></td>
+            </tr>
+            <tr>
+              <td>
+                  <input type="reset" value="Reset">
+              </td>
+              <td>
+                  <input type="submit" value="Submit">
+              </td>
+            </tr>
+          </table>
+      </form>
+    </div>
+    <div class="mail">
+        <p>
+            <h4>Send me an e-mail</h4> 
+            if you have any questions, anything to say or to give me a thumbs up you can do it by clicking on this button
+            <br>
+            <a href="mailto:maja.vignjevic@tvz.hr?subject=Feedback">
+            <img src="../images/mail.png" alt="mail">
+            </a>
+        </p>
+    </div>
+    <div class="footer">
+        <p>
+            <b>Ime i prezime studenta:</b> Maja Vignjević<br><b>JMBAG:</b> 0246096292
+        </p>
+    </div>
+  </div>
+</body>
+</html>
