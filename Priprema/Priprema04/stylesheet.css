@@ -1,0 +1,83 @@
+body{ 
+    width: 800px;
+    text-align: left;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, transparent, #22c1c3), url(Background/tic-tac-toe/tic-tac-toe.png);
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+.explanation{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 390px;
+    height: 470px;
+    padding: 5px;
+}
+.participation{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 390px;
+    height: 470px;
+    padding: 5px;
+}
+.benefits{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 390px;
+    height: 750px;
+    padding: 5px;
+}
+.requirements{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 390px;
+    height: 750px;
+    padding: 5px;
+}
+.footer{
+    float: left;
+}
+.sidebar{
+    flex: auto;
+    float: left;
+}
+.Tablica{
+    background-color: #00fbff75;
+    color: red;
+}
+.Tablica label{
+    font-style: italic;
+}
+a:link{
+    color:rgb(250, 62, 41);
+
+  }
+a:visited{
+    font-weight: bolder;
+    color: lightsalmon;
+}
+a:hover{
+    font-weight: bold;
+    color:rgb(255, 103, 86, 0.967);
+}
+a:active{
+    font-weight: lighter;
+    color: rgb(252, 116, 101);
+}
+.requirements a:link{
+    color: blue;
+}
+.requirements a:visited{
+    color: lightcyan;
+}
+.requirements a:hover{
+    color: blueviolet;
+}
+.requirements a:active{
+    background: #81f1f1;
+}
